@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('https://img.freepik.com/premium-photo/book-stack-library-room-blurred-bookshelf-background_42691-514.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  nav ul {
+    background-color: #333;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #042878;
+  }
+  
+  p {
+    text-align: center;
+    color: #9b0aae;
+    font-size: 25px;
+  }
+  .book-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .book {
+    text-align: center;
+    width: 150px;
+  }
+  
+  .book img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    color: #1f8004;
+  }
+  
+  
